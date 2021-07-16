@@ -40,3 +40,18 @@
 
 - git push --set -upstream origin master
 - github에서 업로드된 파일과 commit log 확인 
+
+### (8) git clone
+
+- 여러개의 저장소에 같은 파일의 상태를 유지할 수 있음
+- 이동하면서 작업하는데 훌륭한 기능임. 
+- github : 해당 저장소에 code >> clone >> https  주소 복사
+
+<img src="C:\Users\joann\OneDrive\Desktop\Temporary\clone.jpg" alt="clone" style="zoom:50%;" />
+
+- git clone [원격저장소주소] 	`[원하는디렉토리명](생략가능)	`
+- ls -a 를 통해 확인
+
+### (9) git pull
+
+- 
