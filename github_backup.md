@@ -7,11 +7,11 @@
 
 ### (2)  용어 정리
 
-- 지역저장소 local repository : 작업하는 본 PC
-- 원격저장소 remote repository 
-- PUSH : 지역저장소 --> 원격저장소로 보내 같은 상태로유지, back up
-- CLONE : 원격저장소와 다른 장소의 지역저장소를 복제화하는 것
-- PULL : 원격저장소 --> 지역저장소로 같은 상태 유지 
+- 지역저장소 `local repository` : 작업하는 본 PC
+- 원격저장소 `remote repository` 
+- `PUSH` : 지역저장소 --> 원격저장소로 보내 같은 상태로유지, back up
+- `CLONE` : 원격저장소와 다른 장소의 지역저장소를 복제화하는 것
+- `PULL` : 원격저장소 --> 지역저장소로 같은 상태 유지 
 
 ###  (3) git hosting
 
@@ -31,14 +31,14 @@
 
 ### (6) 원격저장소와 연결
 
-- git remote add [별명] [원격저장소주소]
+- `git remote add [별명] [원격저장소주소]`
 - git hosting 에서 제공하는 https 기준 보여지는 원격저장소 링크 복사 
 - 기본적인 원격저장소는 origin  으로 별명
-- git remote, git remote -v 는 연결된 원격저장소 정보 보기 
+- `git remote`, `git remote -v` 는 연결된 원격저장소 정보 보기 
 
 ### (7) git push
 
-- git push --set -upstream origin master
+- `git push --set -upstream origin master`
 - github에서 업로드된 파일과 commit log 확인 
 
 ### (8) git clone
@@ -54,4 +54,28 @@
 
 ### (9) git pull
 
-- 
+- 로컬저장소에서 업데이트 --> `push to github` --> 또다른 로컬저장소에서 `pull` 하면 완료 
+- 작업할 때는 언제나 pull --> 작업 --> commit --> push 
+
+### (10) git과 오픈소스 
+
+- git 홈페이지 >> 소스코드 다운로드 받기 >> github 
+- 다운로드 받는 방법 (1) 압축된 파일 다운로드 (2)git clone - 로컬저장소에 저장됨 
+
+### (11) 수업을 마치며
+
+- git 모든 저장소가 소스코드 뿐만 아니라 버전에 대한 모든 정보를 100% 복구할 수 있는 장점
+- 블록체인과 같은 로직 
+- push할 때마다 로그인 정보를 요청받을 때는? SSH 이용 
+- issue tracker : 프로젝트를 실행할 때 마다 생기는 issue를 게시하는 곳, 협업기능과 issue tracker 활용
+- 협업을 할 수 있는 만반의 준비가 끝났음. 각자의 지역저장소에 push, pull 하면서 작업 가능 
+- 버전 관리를 잘하는 사람이 프로젝트 내에서 가장 중요한 사람이 될 수 있음. 
+- 같은 부분을 동시에 수정하는 것 (conflict) --> 협업파트에서 conflict을 방지하는 방법을 배울것. 
+
+### Others
+
+- 로컬이미지를 typora에 입력 후  github에 올릴 때 : https://donggod.tistory.com/139
+- github 개인토큰 : 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
+
+
+
